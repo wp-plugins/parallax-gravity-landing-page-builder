@@ -1,7 +1,7 @@
 === Parallax Gravity - Landing Page Builder ===
 Contributors: sakurapixel
 Donate link: http://sakuraplugins.com/donate/
-Tags: landing page builder, wordpress, parallax, marketing, leads, creative
+Tags: landing page, wordpress, parallax, marketing, leads, creative
 Requires at least: 3.7
 Tested up to: 3.8
 Stable tag: 1.2
