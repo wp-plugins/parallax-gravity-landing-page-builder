@@ -15,8 +15,9 @@ Parallax Gravity is a WordPress plugin that allows you to create unlimited landi
 Parallax Gravity is a WordPress plugin that allows you to create unlimited landing pages. With Parallax Gravity you can add multiple sections within each page, for each section you can set a background, add any type of content including shortcodes from third party plugins and much more. Please note that there is also a premium version for this plugin.
 
 [PREVIEW](http://www.sakuraplugins.com/parallax-gravity-wordpress-landing-page-builder/)
-
 [SUPPORT](http://sakuraplugins.com/)
+[ADMIN VIDEO](http://www.youtube.com/watch?v=V6oss5hfMxc)
+
 
 == Installation ==
 
