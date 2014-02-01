@@ -1,0 +1,53 @@
+=== Parallax Gravity - Landing Page Builder ===
+Contributors: sakurapixel
+Donate link: http://sakuraplugins.com/donate/
+Tags: landing page builder, wordpress, parallax, marketing, leads, creative
+Requires at least: 3.7
+Tested up to: 3.8
+Stable tag: 1.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Parallax Gravity is a WordPress plugin that allows you to create unlimited landing pages. 
+
+== Description ==
+
+Parallax Gravity is a WordPress plugin that allows you to create unlimited landing pages. With Parallax Gravity you can add multiple sections within each page, for each section you can set a background, add any type of content including shortcodes from third party plugins and much more. Please note that there is also a premium version for this plugin.
+
+[PREVIEW](http://www.sakuraplugins.com/parallax-gravity-wordpress-landing-page-builder/)
+[SUPPORT](http://sakuraplugins.com/)
+[ADMIN VIDEO](http://www.youtube.com/watch?v=V6oss5hfMxc)
+
+
+== Installation ==
+
+1. Upload the plugin: Plugins > Add new > Upload.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Go to Admin > Parallax Gravity > New Landing Page
+4. Go to main menu "Aeolus Portfolio" > "Aeolus settings" (edit settings and see shortcodes).
+5. Add sections, than add content for each section, you can change the section's order just by drag and drop.
+
+== Frequently asked questions ==
+
+= A question that someone might have =
+
+An answer to that question.
+
+== Screenshots ==
+
+1. Front end screenshot
+2. Front end screenshot
+3. Front end screenshot
+4. Admin screenshot
+
+== Changelog ==
+
+= 1.0 =
+* First release.
+
+== Upgrade notice ==
+
+
+
+== Arbitrary section 1 ==
+
