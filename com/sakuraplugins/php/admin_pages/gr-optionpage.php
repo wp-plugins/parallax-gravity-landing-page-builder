@@ -92,7 +92,7 @@ class GravityOptionPage extends GravityGenericSettingsPage {
 		  	<div class="whiteOptionBox">
 		  		<h2 class="optionsSecondTitle">Available Shortcodes</h2>
 		  		<div class="hLineTitle"></div>
-		  		<p class="sk_notice"><strong>NOTE!</strong> Below you can find available Shortcodes for the Parallax Gravity Lite version, check out the <a target="_blank" href="http://www.sakuraplugins.com/parallax-gravity-wordpress-landing-page-builder/">PRO VERSION</a> which includes additional shortcodes, parallax module, menu support, custom CSS support, Google Analytics Integration, Dectivate/Redirect support, other premium plugins included and much more.</p>	  		
+		  		<p class="sk_notice"><strong>NOTE!</strong> Below you can find available Shortcodes for the Parallax Gravity Lite version, check out the <a target="_blank" href="http://www.sakuraplugins.com/parallax-gravity-wordpress-landing-page-builder/">PRO VERSION</a> which includes additional shortcodes, parallax module, menu support, custom CSS support, Google Analytics Integration, Dectivate/Redirect support and QR code generation.</p>	  		
 		  		<ul>
 		  			<li>feature</li>
 		  		</ul>
