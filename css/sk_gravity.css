@@ -1,20 +1,26 @@
+@media (max-width: 767px) {
+  body {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
 .gravitySection{  
   position: relative;
   display: block;
   background-size: cover; 
   background-position:center;
-  width: 100%; 	
+  width: 100%;  
 }
 .jsData{
-	display: none;
+  display: none;
 }
 .gravityMove{
-	position: relative;
-	display: inline-block;
-  visibility: hidden;	
+  position: relative;
+  display: inline-block;
+  visibility: hidden; 
 }
 .gravityMoveEnd{
-	display: block;
+  display: block;
 }
 .gravityDownArrow{
   position: absolute;
