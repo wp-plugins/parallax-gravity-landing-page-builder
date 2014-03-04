@@ -257,14 +257,17 @@ function ParallaxGrajvityAdmin(){
 			});
 
 		var callerBTN;
-		//background upload
+
+        //background upload
         section.find('.skButton').click(function(e){
             e.preventDefault();
             callerBTN = jQuery(this);
-            window.send_to_editor = sendToEditorCustom;
-            imageSelectedCallback = sectionBackgroundImageCallback;    
-            tb_show('Upload image', 'media-upload.php?post_id=0&type=image&TB_iframe=true', false);  
-            return false;        
+            SKMediaUpload.startUplod(true, function(data){                
+                callerBTN.parent().find('.sectionBackgroundImage').attr('src', data[0].iconUrl);
+                callerBTN.parent().find('.sectionBackAttachemetUI').val(data[0].id); 
+                jQuery( "#parallax_accordion" ).accordion( "refresh" );                 
+            });
+            return;      
         });
         var sectionBackgroundImageCallback = function(originalImage, thumbImage, imageID){
             callerBTN.parent().find('.sectionBackgroundImage').attr('src', thumbImage);
@@ -353,3 +356,38 @@ function ParallaxGrajvityAdmin(){
 	}
 
 }
+
+
+
+
+//upload
+function SKMediaUploadCls(){
+
+    this.startUplod = function(isMultiple, callBack){
+        var send_attachment_bkp = wp.media.editor.send.attachment;
+        var frame = wp.media({
+            title: "Select Images",
+            multiple: isMultiple,
+            library: { type: 'image' },
+            button : { text : 'add image' }
+        });
+        frame.on('close',function() {                        
+            var selection = frame.state().get('selection');
+            if(selection.length==0)
+                return; 
+            var data = new Array();
+            selection.each(function(attachment) { 
+                var iconUrl = 'http://placehold.it/150x150';    
+                   if(attachment.attributes.sizes.thumbnail!=undefined){
+                   iconUrl = (attachment.attributes.sizes.thumbnail.url!='')?attachment.attributes.sizes.thumbnail.url:iconUrl;
+                   }                 
+                data.push({id:attachment.id, iconUrl:iconUrl});                                                                     
+            });
+            callBack(data);
+            wp.media.editor.send.attachment = send_attachment_bkp;
+        });    
+        frame.open();
+        return false;    
+    }        
+}
+var SKMediaUpload = new SKMediaUploadCls();
