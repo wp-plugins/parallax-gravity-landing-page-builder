@@ -70,7 +70,8 @@ class GravityOptionPage extends GravityGenericSettingsPage {
 		  			<li>Custom keywords support for each landingpage</li>
 		  			<li>Generated QR code (If your campaign also runs offline (Ex: flyers), you could print the QR code on a flyer)</li>
 		  			<li>Add landing page content within your theme's regular pages</li>
-		  			<li>Shortcodes for titles, buttons and navigate between sections button</li>		  			
+		  			<li>Shortcodes for titles, buttons and navigate between sections button</li>
+		  			<li>Set up landing page as homepage</li>		  			
 		  		</ul>
 		  		<a class="skButton skActionButton inlineButton" href="http://www.sakuraplugins.com/parallax-gravity-wordpress-landing-page-builder/" target="_blank">Preview/Buy Pro</a>
 		  		<a class="skButton skActionButton inlineButton" href="http://sakuraplugins.com/docs/gravity_documentation/" target="_blank">Pro Documentation</a>
@@ -211,7 +212,8 @@ class GravityOptionPage extends GravityGenericSettingsPage {
 		  			<li>Custom keywords support for each landingpage</li>
 		  			<li>Generated QR code (If your campaign also runs offline (Ex: flyers), you could print the QR code on a flyer)</li>
 		  			<li>Add landing page content within your theme's regular pages</li>
-		  			<li>Shortcodes for titles, buttons and navigate between sections button</li>		  			
+		  			<li>Shortcodes for titles, buttons and navigate between sections button</li>
+		  			<li>Set up landing page as homepage </li>		  			
 		  		</ul>
 		  		<a class="skButton skActionButton inlineButton" href="http://www.sakuraplugins.com/parallax-gravity-wordpress-landing-page-builder/" target="_blank">Preview/Buy Pro</a>
 		  		<a class="skButton skActionButton inlineButton" href="http://sakuraplugins.com/docs/gravity_documentation/" target="_blank">Pro Documentation</a>
