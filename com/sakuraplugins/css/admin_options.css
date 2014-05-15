@@ -97,6 +97,15 @@
 	margin-bottom: 20px;
 }
 
+.listProFeatures{
+	list-style-type: circle !important;
+	padding-left: 40px !important;
+}
+
+.inlineButton{
+	margin-right: 10px;
+}
+
 
 .clear-admin{
 	clear: both;

@@ -54,7 +54,46 @@ class GravityOptionPage extends GravityGenericSettingsPage {
 
 			<p class="submit">
 				<input type="submit" class="button-primary pull-right" value="<?php _e('Save Changes', GRP_PLUGIN_TEXTDOMAIN) ?>" />
-	        </p>		  	
+	        </p>
+
+		  	<!--pro-->
+		  	<div class="whiteOptionBox">
+		  		<h2 class="optionsSecondTitle">About pro version</h2>
+		  		<div class="hLineTitle"></div>
+		  		<p><b>The pro version of this plugin costs $14 and comes with additional features:</b></p>
+		  		<ul class="listProFeatures">
+		  			<li>Parallax Animation Shortcodes (allows to build scroll based movement like the preview)</li>
+		  			<li>Activate/Deactivate a menu for the landing page (add section names to the page menu)</li>
+		  			<li>Activate/Deactivate page (if campaign is over it will redirect to a custom URL)</li>
+		  			<li>Google Analytics Support for each landing page</li>
+		  			<li>Custom CSS support for each landingpage</li>
+		  			<li>Custom keywords support for each landingpage</li>
+		  			<li>Generated QR code (If your campaign also runs offline (Ex: flyers), you could print the QR code on a flyer)</li>
+		  			<li>Add landing page content within your theme's regular pages</li>
+		  			<li>Shortcodes for titles, buttons and navigate between sections button</li>		  			
+		  		</ul>
+		  		<a class="skButton skActionButton inlineButton" href="http://www.sakuraplugins.com/parallax-gravity-wordpress-landing-page-builder/" target="_blank">Preview/Buy Pro</a>
+		  		<a class="skButton skActionButton inlineButton" href="http://sakuraplugins.com/docs/gravity_documentation/" target="_blank">Pro Documentation</a>
+		  		<a class="skButton skActionButton inlineButton" href="https://www.youtube.com/watch?v=V6oss5hfMxc" target="_blank">Pro - Admin video</a>
+		  	</div>
+		  	<!--/pro-->
+
+
+		  	<!--landx-->
+		  	<div class="whiteOptionBox">
+		  		<h2 class="optionsSecondTitle">About Landx Theme</h2>
+		  		<div class="hLineTitle"></div>
+		  		<p>If you are interested in Parallax Gravity Pro Version you might like the "Landx - WordPress Marketing Theme". <br />The theme costs $29 and comes with Parallax Gravity Pro and other 4 premium plugins ($71 total plugins value).</p>
+		  		<p>Landx is specially designed for marketing campaigns/product showcase, with a small memory footprint is extremely lightweight resulting in a fast response time, it loads pages faster and keeps customers on your website.</p>
+		  		<a class="skButton skActionButton inlineButton" href="http://www.sakuraplugins.com/landx-wordpress-marketing-theme/" target="_blank">Preview/Buy Landx</a>
+		  		<a class="skButton skActionButton inlineButton" href="http://sakuraplugins.com/docs/landx_documentation/" target="_blank">Landx Documentation</a>
+		  		<a class="skButton skActionButton inlineButton" href="https://www.youtube.com/watch?v=W3bwekl6oZU" target="_blank">Landx - Admin video</a>
+		  	</div>
+		  	<!--/landx-->
+
+
+
+	     </div>		  	
 
 		</form>		
 		
@@ -155,7 +194,45 @@ class GravityOptionPage extends GravityGenericSettingsPage {
 		  		<!--/two thirds-->		  			  		
 
 		  	</div>		  	
-		  	<!--/shortcodes-->		        		        
+		  	<!--/shortcodes-->		
+
+
+		  	<!--pro-->
+		  	<div class="whiteOptionBox">
+		  		<h2 class="optionsSecondTitle">About pro version</h2>
+		  		<div class="hLineTitle"></div>
+		  		<p><b>The pro version of this plugin costs $14 and comes with additional features:</b></p>
+		  		<ul class="listProFeatures">
+		  			<li>Parallax Animation Shortcodes (allows to build scroll based movement like the preview)</li>
+		  			<li>Activate/Deactivate a menu for the landing page (add section names to the page menu)</li>
+		  			<li>Activate/Deactivate page (if campaign is over it will redirect to a custom URL)</li>
+		  			<li>Google Analytics Support for each landing page</li>
+		  			<li>Custom CSS support for each landingpage</li>
+		  			<li>Custom keywords support for each landingpage</li>
+		  			<li>Generated QR code (If your campaign also runs offline (Ex: flyers), you could print the QR code on a flyer)</li>
+		  			<li>Add landing page content within your theme's regular pages</li>
+		  			<li>Shortcodes for titles, buttons and navigate between sections button</li>		  			
+		  		</ul>
+		  		<a class="skButton skActionButton inlineButton" href="http://www.sakuraplugins.com/parallax-gravity-wordpress-landing-page-builder/" target="_blank">Preview/Buy Pro</a>
+		  		<a class="skButton skActionButton inlineButton" href="http://sakuraplugins.com/docs/gravity_documentation/" target="_blank">Pro Documentation</a>
+		  		<a class="skButton skActionButton inlineButton" href="https://www.youtube.com/watch?v=V6oss5hfMxc" target="_blank">Pro - Admin video</a>
+		  	</div>
+		  	<!--/pro-->
+
+
+		  	<!--landx-->
+		  	<div class="whiteOptionBox">
+		  		<h2 class="optionsSecondTitle">About Landx Theme</h2>
+		  		<div class="hLineTitle"></div>
+		  		<p>If you are interested in Parallax Gravity Pro Version you might like the "Landx - WordPress Marketing Theme". <br />The theme costs $29 and comes with Parallax Gravity Pro and other 4 premium plugins ($71 total plugins value).</p>
+		  		<p>Landx is specially designed for marketing campaigns/product showcase, with a small memory footprint is extremely lightweight resulting in a fast response time, it loads pages faster and keeps customers on your website.</p>
+		  		<a class="skButton skActionButton inlineButton" href="http://www.sakuraplugins.com/landx-wordpress-marketing-theme/" target="_blank">Preview/Buy Landx</a>
+		  		<a class="skButton skActionButton inlineButton" href="http://sakuraplugins.com/docs/landx_documentation/" target="_blank">Landx Documentation</a>
+		  		<a class="skButton skActionButton inlineButton" href="https://www.youtube.com/watch?v=W3bwekl6oZU" target="_blank">Landx - Admin video</a>
+		  	</div>
+		  	<!--/landx-->
+
+
 
 	      </div>
 	      <!--options wrapper-->
