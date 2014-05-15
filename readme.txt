@@ -4,7 +4,7 @@ Donate link: http://sakuraplugins.com/donate/
 Tags: landing page, wordpress, parallax, marketing, leads, creative
 Requires at least: 3.8
 Tested up to: 3.9
-Stable tag: 1.4
+Stable tag: 1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,8 @@ An answer to that question.
 
 == Changelog ==
 
+= 1.5 =
+* Admin Bug fix .
 = 1.4 =
 * Admin Bug fix.
 = 1.2 =
