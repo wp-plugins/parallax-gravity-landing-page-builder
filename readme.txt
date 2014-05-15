@@ -43,7 +43,7 @@ An answer to that question.
 == Changelog ==
 
 = 1.5 =
-* Admin Bug fix.
+* Admin Bug fix .
 = 1.4 =
 * Admin Bug fix.
 = 1.2 =
