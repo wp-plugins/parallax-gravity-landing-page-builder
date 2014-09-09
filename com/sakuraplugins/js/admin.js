@@ -290,30 +290,35 @@ function ParallaxGrajvityAdmin(){
 	//handle section background
 	function handleSectionBackground(section){
 		var backgroundColorUI = section.find('.section_background_color');
-        backgroundColorUI.ColorPicker({
-            onSubmit: function(hsb, hex, rgb, el) {
-                jQuery(el).val(hex);
-                jQuery(el).ColorPickerHide();
-            },
-            onBeforeShow: function () {
-                jQuery(this).ColorPickerSetColor(this.value);
-            }            
-        }).bind('keyup', function(){
-            jQuery(this).ColorPickerSetColor(this.value);
-        });
+
+		backgroundColorUI.colpick({
+			layout:'hex',
+			submit:0,
+			colorScheme:'dark',
+			color: backgroundColorUI.val(),
+			onChange:function(hsb,hex,rgb,el,bySetColor) {
+				jQuery(el).css('border-color','#'+hex);
+				// Fill the text box just if the color was set using the picker, and not the colpickSetColor function.
+				if(!bySetColor) jQuery(el).val(hex);
+			}
+		}).keyup(function(){
+			jQuery(this).colpickSetColor(this.value);
+		});	
 
 		var section_text_color = section.find('.section_text_color');
-        section_text_color.ColorPicker({
-            onSubmit: function(hsb, hex, rgb, el) {
-                jQuery(el).val(hex);
-                jQuery(el).ColorPickerHide();
-            },
-            onBeforeShow: function () {
-                jQuery(this).ColorPickerSetColor(this.value);
-            }            
-        }).bind('keyup', function(){
-            jQuery(this).ColorPickerSetColor(this.value);
-        });        			
+		section_text_color.colpick({
+			layout:'hex',
+			submit:0,
+			color: section_text_color.val(),
+			colorScheme:'dark',
+			onChange:function(hsb,hex,rgb,el,bySetColor) {
+				jQuery(el).css('border-color','#'+hex);
+				// Fill the text box just if the color was set using the picker, and not the colpickSetColor function.
+				if(!bySetColor) jQuery(el).val(hex);
+			}
+		}).keyup(function(){
+			jQuery(this).colpickSetColor(this.value);
+		});       			
 	}
 
 
@@ -330,6 +335,48 @@ function ParallaxGrajvityAdmin(){
         });
 
 		jQuery("#option_tabs").tabs({ active: 0 });	
+		jQuery("#menuBackgroundColor").colpick({
+			layout:'hex',
+			submit:0,
+			color: jQuery("#menuBackgroundColor").val(),
+			colorScheme:'dark',
+			onChange:function(hsb,hex,rgb,el,bySetColor) {
+				jQuery(el).css('border-color','#'+hex);
+				// Fill the text box just if the color was set using the picker, and not the colpickSetColor function.
+				if(!bySetColor) jQuery(el).val(hex);
+			}
+		}).keyup(function(){
+			jQuery(this).colpickSetColor(this.value);
+		});	
+
+		jQuery("#menuPageColor").colpick({
+			layout:'hex',
+			submit:0,
+			color: jQuery("#menuPageColor").val(),
+			colorScheme:'dark',
+			onChange:function(hsb,hex,rgb,el,bySetColor) {
+				jQuery(el).css('border-color','#'+hex);
+				// Fill the text box just if the color was set using the picker, and not the colpickSetColor function.
+				if(!bySetColor) jQuery(el).val(hex);
+			}
+		}).keyup(function(){
+			jQuery(this).colpickSetColor(this.value);
+		});
+
+		jQuery("#menuSelectedColor").colpick({
+			layout:'hex',
+			submit:0,
+			color: jQuery("#menuSelectedColor").val(),
+			colorScheme:'dark',
+			onChange:function(hsb,hex,rgb,el,bySetColor) {
+				jQuery(el).css('border-color','#'+hex);
+				// Fill the text box just if the color was set using the picker, and not the colpickSetColor function.
+				if(!bySetColor) jQuery(el).val(hex);
+			}
+		}).keyup(function(){
+			jQuery(this).colpickSetColor(this.value);
+		});	
+		/*
         jQuery('#menuBackgroundColor, #menuPageColor, #menuSelectedColor').ColorPicker({
             onSubmit: function(hsb, hex, rgb, el) {
                 jQuery(el).val(hex);
@@ -347,7 +394,8 @@ function ParallaxGrajvityAdmin(){
             imageSelectedCallback = capturePageLogoUpload;  
             tb_show('Upload image', 'media-upload.php?post_id=0&type=image&TB_iframe=true', false);  
             return false;        
-        });   
+        }); 
+        */  
         var capturePageLogoUpload = function(originalImage, thumbImage, imageID){
 	            jQuery('#pageLogoImage').attr('src', thumbImage);
 	            jQuery('#pageLogoImageID').val(imageID);           
