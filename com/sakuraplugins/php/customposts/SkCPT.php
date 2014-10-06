@@ -49,6 +49,9 @@ class GrpCPT extends GRPGenericPostType {
 										
 
 				$editor_contents = (isset($customPostOptions[0]['sectionContent']))?$customPostOptions[0]['sectionContent']:'';	
+
+				//static ids
+				$static_ids = (isset($customPostOptions[0]['static_ids']))?$customPostOptions[0]['static_ids']:false;				
 			?>			
 			<!--parallax container-->			
 			<div id="parallax_accordion">
@@ -94,6 +97,9 @@ class GrpCPT extends GRPGenericPostType {
 									
 
 						$sectionScrollDuration = (isset($section_scroll_duration[$i]))?$section_scroll_duration[$i]:'1000';																								
+
+						//startic ID
+						$static_ID = (isset($static_ids[$i]))?$static_ids[$i]:uniqid('gravityslide');						
 																
 					?>
 						<!--section group-->
@@ -102,6 +108,8 @@ class GrpCPT extends GRPGenericPostType {
 							 <div>
 							 	<input style="margin-right: 5px;" type='submit' value='Remove section' class='button-secondary pxFloatRight removeSectionBTN' />
 							 	
+							 	<!--static ID-->
+							 	<input style="height: 30px;" class="smallInputText" type="hidden" name="<?php echo $post_custom_meta_data;?>[static_ids][]" value="<?php echo $static_ID;?>" />							 	
 
 							 	<!--section title-->
 							 	<div class="sk_admin_row">

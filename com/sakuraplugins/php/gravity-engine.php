@@ -240,6 +240,14 @@ class GravityFrontEngine
 	public function getContent($sectionNo){
 		return (isset($this->editor_contents[$sectionNo]))?$this->editor_contents[$sectionNo]:'';
 	}
+
+	//get static ID
+	public function getStaticID($sectionNo){		
+		$static_ids = (isset($this->customPostOptions[0]['static_ids']))?$this->customPostOptions[0]['static_ids']:false;
+		$static_ID = (isset($static_ids[$sectionNo]))?$static_ids[$sectionNo]:uniqid('gravityslide');	
+		return $static_ID;
+	}
+		
 }
 
 ?>

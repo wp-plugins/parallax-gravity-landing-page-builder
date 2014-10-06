@@ -41,7 +41,7 @@ $sectionArrowH = 80;
 			$menuSectionClass = ($gravity_engine->isMenuSection($i))?' menuSection':'';
 		?>	
 			<!--section-->
-			<div id="<?php echo uniqid('gravityslide');?>" data-scrollduration="<?php echo $gravity_engine->getSectionScrollDuration($i);?>" class="gravitySection<?php echo $menuSectionClass;?>" data-hasbackgroundimage="<?php echo $backSettings['hasBackground'];?>" data-backimageurl="<?php echo $backSettings['backImageSrc'];?>" style="<?php echo $gravity_engine->getSectionCSS($i);?>">
+			<div id="<?php echo $gravity_engine->getStaticID($i);?>" data-scrollduration="<?php echo $gravity_engine->getSectionScrollDuration($i);?>" class="gravitySection<?php echo $menuSectionClass;?>" data-hasbackgroundimage="<?php echo $backSettings['hasBackground'];?>" data-backimageurl="<?php echo $backSettings['backImageSrc'];?>" style="<?php echo $gravity_engine->getSectionCSS($i);?>">
 
 				<!--arrow up-->
 				<?php if($gravity_engine->isSectionBackgroundArrowTop($i)):?>		
