@@ -4,7 +4,7 @@ Donate link: http://sakuraplugins.com/donate/
 Tags: landing page, wordpress, parallax, marketing, leads, creative
 Requires at least: 3.9
 Tested up to: 4.0
-Stable tag: 1.9
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Parallax Gravity is a WordPress plugin that allows you to create unlimited landi
 
 Parallax Gravity is a WordPress plugin that allows you to create unlimited landing pages. With Parallax Gravity you can add multiple sections within each page, for each section you can set a background, add any type of content including shortcodes from third party plugins and much more. Please note that there is also a premium version for this plugin.
 
-[PREVIEW](http://www.sakuraplugins.com/parallax-gravity-wordpress-landing-page-builder/)
+[PREVIEW](http://www.sakuraplugins.com/products-list/parallax-gravity-landing-page-builder/)
 [SUPPORT](http://sakuraplugins.com/)
 [ADMIN VIDEO](http://www.youtube.com/watch?v=V6oss5hfMxc)
 
