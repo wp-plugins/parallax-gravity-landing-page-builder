@@ -10,13 +10,7 @@ class GRPScriptManager {
 		//fluid iFrames
 		wp_register_script( 'fluidvids', GRP_JS.'/external/fluidvids.min.js', array('jquery'), null, TRUE);
 		wp_enqueue_script('fluidvids');		
-	}
-	
-	public static function enqueTweenmax(){
-		//tween js
-		wp_register_script('squidmag_tweenmax', GRP_JS.'/external/TweenMax.min.js', array('jquery'));
-		wp_enqueue_script('squidmag_tweenmax');			
-	}	
+	}		
 
 	public static function enqueJqueryUI(){
 			//jqueryui		
@@ -28,11 +22,7 @@ class GRPScriptManager {
 			wp_enqueue_script('jquery-ui-mouse');
 			wp_enqueue_script('jquery-ui-spinner');
 			wp_enqueue_script('jquery-ui-accordion');
-			wp_enqueue_script('jquery-ui-dialog');
-			
-			//jqueryui theme
-			//wp_register_style('jqueryui-style', RX_JS_ADMIN.'/jqueryui/css/redmond/jquery-ui-1.10.2.custom.css');
-			//wp_enqueue_style('jqueryui-style');						
+			wp_enqueue_script('jquery-ui-dialog');								
 	}
 
 	//load thinkbox 
