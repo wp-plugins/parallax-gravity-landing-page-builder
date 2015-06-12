@@ -4,7 +4,7 @@ Plugin Name: Parallax Gravity Lite - Landing Page Builder
 Plugin URI: http://sakuraplugins.com/
 Description: Parallax Gravity Lite, Create stunning landing pages.
 Author: SakuraPlugins
-Version: 2.0
+Version: 2.0.6
 Author URI: http://sakuraplugins.com/
 */
 define('GRP_TEMPPATH', plugins_url('', __FILE__));
