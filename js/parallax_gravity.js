@@ -18,7 +18,7 @@
         menuItemsAC = new Array();             
     	var isMobileDevice = false;
     	var controller;
-    	var animationEFX = Quad.easeOut;
+    	var animationEFX = function(){};
     	this.init = function(){    		            
     		isMobileDevice = (GRAVITY_PARALLAX_DATA.isMobileDevice=="true")?true:false; 
     		interateSections();            
