@@ -113,7 +113,6 @@ class GravityCore {
 				
 				wp_enqueue_script('jquery');
 				wp_enqueue_script('jquery-effects-core');				 	
-				GRPScriptManager::enqueTweenmax();
 				
 				wp_register_script('grp_scrollorama', GRP_TEMPPATH.'/js/external/gravity-scrollorama.js', array('jquery'));
 				wp_enqueue_script('grp_scrollorama');
