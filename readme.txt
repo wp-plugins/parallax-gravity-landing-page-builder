@@ -3,7 +3,7 @@ Contributors: sakurapixel
 Donate link: http://sakuraplugins.com/donate/
 Tags: landing page, wordpress, parallax, marketing, leads, creative
 Requires at least: 3.9
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: 2.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
